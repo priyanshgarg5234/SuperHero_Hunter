@@ -3,6 +3,10 @@ It is a superHero Hunter application created with HTML, CSS and JavaScript. And 
 
 
 
-https://github.com/priyanshgarg5234/SuperHero_Hunter/assets/66772817/964d7647-24e4-420e-9cf9-2abd69b3004b
 
+
+
+
+
+https://github.com/priyanshgarg5234/SuperHero_Hunter/assets/66772817/850a3262-8ff5-46bf-839a-a56336988ab5
 
