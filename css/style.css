@@ -1,0 +1,137 @@
+/* Reset some default browser styles */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 3rem;
+    color: #fffcfc;
+}
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Apply a background image from the 'images' folder */
+body {
+    background-image: url('images/background-image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+/* Style the navigation bar */
+.navbar {
+    background-color: #333;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    margin: 0 10px;
+}
+
+/* Center align the main content */
+.container {
+    text-align: center;
+    margin-top: 150px;
+}
+
+/* Style the search bar */
+.search-bar {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#search-bar {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+#search-button {
+    background-color: #ff8237db;
+    color: #fff;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#search-button:hover {
+    box-shadow: rgb(14 15 15) 0px 1px 10px inset;
+}
+
+.search-suggestions {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.vertical-suggestions {
+    list-style-type: none;
+    padding: 5px;
+    margin: 0;
+    width: 400.24px;
+}
+
+
+.single-search-result {
+    background-color:#712965bf;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    border-bottom: 1px solid #ccc;
+    transition: box-shadow 0.3s;
+}
+.single-search-result:hover {
+    box-shadow: inset 0px 0px 5px 1px rgba(255, 177, 22, 0.998); /* Add inward shadow on hover */
+}
+
+.single-search-result img {
+    max-width: 45px;
+    max-height: 45px;
+    margin-right: 10px;
+}
+
+.hero-info {
+    display: flex;
+    align-items: center;
+}
+
+.hero-info a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.single-search-result .add-to-fav-btn-container {
+    margin-left: auto; /* Align button to the right */
+}
+
+.single-search-result .add-to-fav-btn {
+    background-color: #ff8237db;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.single-search-result .add-to-fav-btn:hover {
+    box-shadow: rgb(14 15 15) 0px 1px 10px inset;
+}
